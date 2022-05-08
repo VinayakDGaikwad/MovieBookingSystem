@@ -62,11 +62,11 @@ Partial Class main_window
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.27826!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(40, 21)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(438, 31)
+        Me.Label1.Size = New System.Drawing.Size(417, 30)
         Me.Label1.TabIndex = 4
         Me.Label1.Text = "Welcome to Movie Booking System"
         '
-        'Form1
+        'main_window
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -76,7 +76,7 @@ Partial Class main_window
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Margin = New System.Windows.Forms.Padding(4)
-        Me.Name = "Form1"
+        Me.Name = "main_window"
         Me.Text = "Welcome"
         Me.ResumeLayout(False)
         Me.PerformLayout()
